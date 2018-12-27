@@ -3,29 +3,6 @@ import Particles from 'react-particles-js';
 import ParticleComponent from "./ParticleComponent";
 
 class Header extends Component {
-    // render(){
-    //     return (
-    //         <Particles
-    //             params={{
-    //                 "particles": {
-    //                     "number": {
-    //                         "value": 50
-    //                     },
-    //                     "size": {
-    //                         "value": 3
-    //                     }
-    //                 },
-    //                 "interactivity": {
-    //                     "events": {
-    //                         "onhover": {
-    //                             "enable": true,
-    //                             "mode": "repulse"
-    //                         }
-    //                     }
-    //                 }
-    //             }} />
-    //     );
-    // };
   render() {
 
     if(this.props.data){
@@ -61,7 +38,7 @@ class Header extends Component {
       <div className="row banner">
          <div className="banner-text">
             <h1 className="responsive-headline">I'm {name}.</h1>
-            <h3>I'm a {city} based <span>{occupation}</span>. {description}.</h3>
+            <h3>I'm a <span>{occupation}</span> at Western University {description}.</h3>
             <hr />
             <ul className="social">
                {networks}

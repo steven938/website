@@ -1,25 +1,25 @@
 {
   "main": {
-    "name":"Tim Baker",
-    "occupation":"(Your Occupation Here)",
-    "description":"Here will be your description. Use this to describe what you do or whatever you feel best describes yourself to a potential employer",
+    "name":"Steven Chen",
+    "occupation":"Computer Science and Business student",
+    "description":"who is a technologist, business analyst, and critical thinker.",
     "image":"profilepic.jpg",
-    "bio":"Use this bio section as your way of describing yourself and saying what you do, what technologies you like to use or feel most comfortable with, describing your personality, or whatever else you feel like throwing in.",
-    "contactmessage":"Here is where you should write your message to readers to have them get in contact with you.",
-    "email": "youremailhere@gmail.com",
-    "phone": "555-555-5555",
+    "bio":"Technical-wise, I'm interested in data engineering, full-stack development, data science and analytics. I'm also an product enthusiast, desiring to build the best products that create the most value. Business-wise, I have experience with operations research in context of accounting and financial processes",
+    "contactmessage":"Want to get in contact with me?",
+    "email": "s_chen@hotmail.ca",
+    "phone": "604-781-9692",
     "address":{
-      "street":"(Your Street)",
-      "city":"(Your City)",
-      "state":"(Your State)",
-      "zip": "(Your Zip/Postal Code)"
+      "street":"Chesham Crt",
+      "city":"London",
+      "state":"Ontario",
+      "zip": "Canada"
     },
     "website": "http://www.timbakerdev.com",
-    "resumedownload":"http://timbakerdev.com",
+    "resumedownload":"https://www.dropbox.com/s/2bwgeq5nryhq9rw/Steven%20Chen%20Resume%20-%20SWE.pdf?dl=0",
     "social":[
       {
         "name":"facebook",
-        "url":"http://facebook.com/tim.baker.906",
+        "url":"http://facebook.com",
         "className":"fa fa-facebook"
       },
       {
@@ -29,22 +29,22 @@
       },
       {
         "name":"google-plus",
-        "url":"http://googleplus.com/tbakerx",
+        "url":"http://googleplus.com",
         "className":"fa fa-google-plus"
       },
       {
         "name":"linkedin",
-        "url":"https://www.linkedin.com/in/tim-baker-8420009a/",
+        "url":"https://www.linkedin.com/in/steven-t-chen",
         "className":"fa fa-linkedin"
       },
       {
         "name":"instagram",
-        "url":"http://instagram.com/tbaker_x",
+        "url":"http://instagram.com/",
         "className":"fa fa-instagram"
       },
       {
         "name":"github",
-        "url":"http://github.com/tbakerx",
+        "url":"http://github.com/steven938",
         "className":"fa fa-github"
       },
       {
@@ -55,63 +55,57 @@
     ]
   },
   "resume":{
-    "skillmessage":"Here you can create a short write-up of your skills to show off to employers",
+    "skillmessage":"Technicals I'm good at",
     "education":[
       {
-        "school":"University?",
-        "degree":"Masters in Beer tasting",
-        "graduated":"April 2007",
-        "description":"Describe your experience at school, what you learned, what useful skills you have acquired etc."
-      },
-      {
-        "school":"School #1 Maybe College?",
-        "degree":"What did you study 101",
-        "graduated":"March 2003",
-        "description":"Describe your experience at school, what you learned, what useful skills you have acquired etc."
+        "school":"Western University",
+        "degree":"BSc Honors Computer Science & BA, Honors Business Administration",
+        "graduated":"2017 - Present",
+        "description":"3.9/4.0 GPA in Dual Degree program. Classes that I have taken or am currently taking include Data Structures and Algorithm, Computer Organization and Architecture, Systems Programming, Discrete Math, Calculus, Financial Analysis and Business Decision Making, and more."
       }
     ],
     "work":[
       {
-        "company":"Awesome Design Studio",
-        "title":"Senior UX God ",
-        "years":"March 2010 - Present",
-        "description":"Describe work, special projects, notable achievements, what technologies you have been working with, and anything else that would be useful for an employer to know."
+        "company":"IA Financial Group",
+        "title":"Summer Technology Analyst, Software Developer",
+        "years":"May 2018 - August 2018",
+        "description":"I designed, implemented a data pipeline in Python to deliver structured and unstructured data analytics for the client rep team. I also worked on an ongoing agile development of the company's workflow system by helping create Key Performance Metrics (KPI) using SQL and Business Intelligence (BI) tools. I also helped with testing and used Jira for bug tracking."
       },
       {
-        "company":"Super Cool Studio",
-        "title":"Junior bug fixer",
-        "years":"March 2007 - February 2010",
-        "description":"Describe work, special projects, notable achievements, what technologies you have been working with, and anything else that would be useful for an employer to know."
+        "company":"Adanac Cross Border Tax",
+        "title":"Summer Accounting Assistant",
+        "years":"May 2017 - August 2017",
+        "description":"I worked on developing spreadsheet templates and integrating accounting software to speed up tax and accounting processes."
       }
     ],
     "skills":[
       {
-        "name":"Git",
+        "name":"Python",
+        "level":"80%"
+      },
+      {
+        "name":"Java",
+        "level":"70%"
+      },
+      {
+        "name":"SQL",
         "level":"60%"
       },
       {
-        "name":"Illustrator",
-        "level":"55%"
+        "name":"Javascript",
+        "level":"60%"
       },
       {
-        "name":"ReactJs",
-        "level":"50%"
+        "name":"HTML",
+        "level":"60%"
       },
       {
         "name":"CSS",
-        "level":"90%"
+        "level":"60%"
       },
       {
-        "name":"HTML5",
-        "level":"80%"
-      },
-      {
-        "name":"VueJs",
-        "level":"50%"
-      },
-      {
-        "name":"MongoDB",
-        "level":"80%"
+        "name":"C/C++",
+        "level":"60%"
       }
     ]
   },
@@ -152,12 +146,12 @@
   "testimonials":{
     "testimonials":[
       {
-        "text":"Here you should write some nice things that someone has said about you. No lies though, employers can tell when you are lying.",
-        "user":"Kareem Abdul Jabbar"
+        "text":"Honestly, an mediocre wizard but an amazing friend.",
+        "user":"Harry Potter"
       },
       {
-        "text":"That Tim Baker must be one of the most brilliant developers I've ever met! It is amazing that nobody has hired him yet. Hey you, you should hire this guy, he may be fresh out of University and have zero on the job experience but I am confident that he will be one of your best developers in no time!",
-        "user":"Steve Wozniak... impersonator"
+        "text":"He's a smart guy... Wait, what's this internet thing?",
+        "user":"Albert Einstein"
       }
     ]
   }
