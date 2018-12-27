@@ -120,19 +120,19 @@
       {
         "title":"Maze Solver",
         "category":"Java program that solves maze with number path restrictions.",
-        "image":"maze.jpg",
+        "image":"maze.JPG",
         "url":"https://github.com/steven938/Maze-Solver"
       },
       {
         "title":"Huffman Compression",
         "category":"Implemented Huffman Compression Algorithm for textfile compression from scratch in java.",
-        "image":"tree.jpg",
+        "image":"tree.JPG",
         "url":"https://github.com/steven938/Huffman-Compression"
       },
       {
         "title":"Full Stack Web Development",
         "category":"Developed web apps and websites such as this. Worked with node.js, react.js, bootstrap and plain HTML/CSS + JavaScript of course.",
-        "image":"website.jpg",
+        "image":"website.JPG",
         "url":"https://github.com/steven938/website"
       },
       {
