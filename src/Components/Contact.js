@@ -87,7 +87,7 @@ class Contact extends Component {
 					   </p>
 				   </div>
 
-              
+
             </aside>
       </div>
    </section>
