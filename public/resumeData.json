@@ -2,7 +2,7 @@
   "main": {
     "name":"Steven Chen",
     "occupation":"Computer Science and Business student",
-    "description":"and I'm a technologist, business analyst, and critical thinker.",
+    "description":"and I'm a technologist, analyst, and critical thinker.",
     "image":"profilepic.jpg",
     "bio":"Technical-wise, I'm interested in data engineering, full-stack development, data science and analytics. I'm also an product enthusiast, desiring to build the best products that create the most value. Business-wise, I have experience with operations research in context of accounting and financial processes",
     "contactmessage":"Want to get in contact with me? Email me at s_chen@hotmail.ca",
@@ -136,10 +136,10 @@
         "url":"https://github.com/steven938/website"
       },
       {
-        "title":"Twitter Sentiment Anaylsis",
-        "category":"(MVP Only) A React and Meteor based chat University project.",
-        "image":"smirkspace.jpg",
-        "url":"http://www.smirkspace.com"
+        "title":"Twitter Sentiment Analysis",
+        "category":"Extracted tweets using twitter API and ran sentiment analysis based on geolocation of tweets.",
+        "image":"twitter.jpg",
+        "url":"https://github.com/steven938/Twitter-Sent-Analysis"
       }
     ]
   },
