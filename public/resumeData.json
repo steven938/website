@@ -118,6 +118,12 @@
         "url":"https://devpost.com/software/travelsafe-83hvgo"
       },
       {
+        "title":"EmailParser",
+        "category":"Open-source Python library for parsing raw emails.",
+        "image":"email.gif",
+        "url":"https://github.com/steven938/EmailParser"
+      },
+      {
         "title":"Maze Solver",
         "category":"Java program that solves maze with number path restrictions.",
         "image":"maze.JPG",
