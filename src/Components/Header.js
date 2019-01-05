@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import Particles from 'react-particles-js';
 import ParticleComponent from "./ParticleComponent";
 
 class Header extends Component {
@@ -17,7 +16,7 @@ class Header extends Component {
 
     return (
       <header id="home">
-          <ParticleComponent />
+          <ParticleComponent/>
 
       <nav id="nav-wrap">
 
@@ -42,11 +41,13 @@ class Header extends Component {
             <hr />
             <ul className="social">
                {networks}
+
             </ul>
          </div>
       </div>
 
-      <p className="scrolldown">
+
+          <p className="scrolldown">
          <a className="smoothscroll" href="#about"><i className="icon-down-circle"></i></a>
       </p>
 
