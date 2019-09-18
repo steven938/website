@@ -65,6 +65,12 @@
       }
     ],
     "work":[
+        {
+        "company":"Facebook",
+        "title":"Data Engineer Intern",
+        "years":"June 2019 - Present",
+        "description":"Working on Data Pipelining, Data Ingestion, Data Dependency Tracking for Dashboards"
+      },
       {
         "company":"IA Financial Group",
         "title":"Summer Technology Analyst, Software Developer",
