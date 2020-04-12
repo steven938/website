@@ -19,7 +19,7 @@ class Footer extends Component {
            </ul>
 
            <ul className="copyright">
-              <li>&copy; Copyright 2018 Steven Chen</li>
+              <li>&copy; Copyright 2020 Steven Chen</li>
               <li>Design by <a title="Styleshout" href="http://www.steven938.github.io/">Steven Chen</a></li>
            </ul>
 

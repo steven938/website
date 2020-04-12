@@ -16,9 +16,8 @@ class Header extends Component {
 
     return (
       <header id="home">
-          <ParticleComponent/>
 
-      <nav id="nav-wrap">
+          <nav id="nav-wrap">
 
          <a className="mobile-btn" href="#nav-wrap" title="Show navigation">Show navigation</a>
 	      <a className="mobile-btn" href="#home" title="Hide navigation">Hide navigation</a>
@@ -33,13 +32,14 @@ class Header extends Component {
          </ul>
 
       </nav>
-
       <div className="row banner">
-         <div className="banner-text">
-            <h1 className="responsive-headline">I'm {name}.</h1>
-            <h3>I'm a <span>{occupation}</span> at Western University {description}.</h3>
+          <ParticleComponent/>
+
+          <div className="banner-text" style={{zindex:9999}}>
+              <h1 className="responsive-headline">I'm {name}.</h1>
+            <h3 style={{position: "relative"}}>I'm a <span>{occupation}</span> at Western University {description}.</h3>
             <hr />
-            <ul className="social">
+            <ul className="social" style={{position: "relative"}}>
                {networks}
 
             </ul>
