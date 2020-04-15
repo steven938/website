@@ -21,7 +21,7 @@ class App extends Component {
 
     ReactGA.initialize('UA-110570651-1');
     ReactGA.pageview(window.location.pathname);
-    fetch('/ping')
+    fetch('https://stevenchen.herokuapp.com/ping')
         .then(res => console.log(res))
         .then(res => console.log("TEST SUCCESS"))
   }
