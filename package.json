@@ -4,8 +4,10 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node index.js"
+    "start": "node index.js",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
   },
   "keywords": [],
   "author": "",
@@ -15,7 +17,22 @@
     "cors": "^2.8.5",
     "express": "^4.17.1",
     "express-favicon": "^2.0.1",
+    "jquery": "^3.3.1",
     "path": "^0.12.7",
+    "react": "^16.7.0",
+    "react-dom": "^16.7.0",
+    "react-ga": "^2.5.6",
+    "react-particles-js": "^3.0.3",
+    "react-scripts": "^2.1.2",
     "yarn": "^1.22.4"
-  }
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": [
+    "defaults",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ]
 }
