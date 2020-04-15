@@ -21,7 +21,7 @@ class App extends Component {
 
     ReactGA.initialize('UA-110570651-1');
     ReactGA.pageview(window.location.pathname);
-    fetch('http://localhost:8080/app')
+    fetch('/ping')
         .then(res => console.log(res))
         .then(res => console.log("TEST SUCCESS"))
   }

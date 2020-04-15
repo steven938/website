@@ -4,7 +4,6 @@ const path = require('path');
 const favicon = require('express-favicon');
 const port = process.env.PORT || 8080;
 
-// app.use(favicon(__dirname + '/build/favicon.ico'));
 let bodyParser     =        require("body-parser");
 app.use(bodyParser.urlencoded({ extended: true }));
 app.use(bodyParser.json());
@@ -12,7 +11,7 @@ app.use(bodyParser.json());
 // Serve static files from the React app
 app.use(express.static(path.join(__dirname, 'build')));
 
-app.get('/app', (req, res) => {
+app.get('/ping', (req, res) => {
   res.send("backend call")
 });
 
