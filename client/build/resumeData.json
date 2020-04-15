@@ -1,0 +1,145 @@
+{
+  "main": {
+    "name":"Steven Chen",
+    "occupation":"Computer Science and Business student",
+    "description":"and I'm a technologist, analyst, and problem solver",
+    "image":"profilepic.jpg",
+    "bio":"I'm interested in technology and its social, business applications. Technical-wise, I'm interested in data engineering, full-stack development, data science and analytics. I'm also fascinated by fundamental investing, valuation, and the financial markets. I'm also a product enthusiast, desiring to build the best products that create the most value.",
+    "contactmessage":"Want to get in contact with me? Email me at s_chen@hotmail.ca",
+    "email": "s_chen@hotmail.ca",
+    "phone": "604-781-9692",
+    "address":{
+      "street":"Chesham Crt",
+      "city":"London",
+      "state":"Ontario",
+      "zip": "Canada"
+    },
+    "website": "http://www.timbakerdev.com",
+    "resumedownload":"https://www.dropbox.com/s/2bwgeq5nryhq9rw/Steven%20Chen%20Resume%20-%20SWE.pdf?dl=0",
+    "social":[
+      {
+        "name":"linkedin",
+        "url":"https://www.linkedin.com/in/steven-t-chen",
+        "className":"fa fa-linkedin"
+      },
+      {
+        "name":"github",
+        "url":"http://github.com/steven938",
+        "className":"fa fa-github"
+      }
+    ]
+  },
+  "resume":{
+    "skillmessage":"Technicals I'm good at",
+    "education":[
+      {
+        "school":"Western University",
+        "degree":"BSc Honors Computer Science & BA, Honors Business Administration",
+        "graduated":"2017 - Present",
+        "description":"3.9/4.0 GPA in Dual Degree program. Classes that I have taken or am currently taking include Data Structures and Algorithm, Computer Organization and Architecture, Systems Programming, Discrete Math, Calculus, Financial Analysis and Business Decision Making, and more."
+      }
+    ],
+    "work":[
+        {
+        "company":"Facebook",
+        "title":"Data Engineer Intern",
+        "years":"June 2019 - Present",
+        "description":"Working on Data Pipelining, Data Ingestion, Data Dependency Tracking for Dashboards"
+      },
+      {
+        "company":"IA Financial Group",
+        "title":"Summer Technology Analyst, Software Developer",
+        "years":"May 2018 - August 2018",
+        "description":"I designed, implemented a data pipeline in Python to deliver structured and unstructured data analytics for the client rep team. I also worked on an ongoing agile development of the company's workflow system by helping create Key Performance Metrics (KPI) using SQL and Business Intelligence (BI) tools. I also helped with testing and used Jira for bug tracking."
+      },
+      {
+        "company":"Adanac Cross Border Tax",
+        "title":"Summer Accounting Assistant",
+        "years":"May 2017 - August 2017",
+        "description":"I worked on developing spreadsheet templates and integrating accounting software to speed up tax and accounting processes."
+      }
+    ],
+    "skills":[
+      {
+        "name":"Python",
+        "level":"80%"
+      },
+      {
+        "name":"Java",
+        "level":"70%"
+      },
+      {
+        "name":"C/C++",
+        "level":"70%"
+      },
+      {
+        "name":"SQL",
+        "level":"60%"
+      },
+      {
+        "name":"Javascript",
+        "level":"60%"
+      },
+      {
+        "name":"HTML",
+        "level":"60%"
+      },
+      {
+        "name":"CSS",
+        "level":"60%"
+      }
+    ]
+  },
+  "portfolio":{
+    "projects": [
+      {
+        "title":"Travelsafe",
+        "category":"Web app for finding safest route between 2 location. Used graph traversal algorithm with here.com mapping API.",
+        "image":"map.png",
+        "url":"https://devpost.com/software/travelsafe-83hvgo"
+      },
+      {
+        "title":"EmailParser",
+        "category":"Open-source Python library for parsing raw emails.",
+        "image":"email.gif",
+        "url":"https://github.com/steven938/EmailParser"
+      },
+      {
+        "title":"Maze Solver",
+        "category":"Java program that solves maze with number path restrictions.",
+        "image":"maze.JPG",
+        "url":"https://github.com/steven938/Maze-Solver"
+      },
+      {
+        "title":"Huffman Compression",
+        "category":"Implemented Huffman Compression Algorithm for textfile compression from scratch in java.",
+        "image":"tree.JPG",
+        "url":"https://github.com/steven938/Huffman-Compression"
+      },
+      {
+        "title":"Full Stack Web Development",
+        "category":"Developed web apps and websites such as this. Worked with node.js, react.js, bootstrap and plain HTML/CSS + JavaScript of course.",
+        "image":"website.JPG",
+        "url":"https://github.com/steven938/website"
+      },
+      {
+        "title":"Twitter Sentiment Analysis",
+        "category":"Extracted tweets using twitter API and ran sentiment analysis based on geolocation of tweets.",
+        "image":"twitter.jpg",
+        "url":"https://github.com/steven938/Twitter-Sent-Analysis"
+      }
+    ]
+  },
+  "testimonials":{
+    "testimonials":[
+      {
+        "text":"Honestly, an mediocre wizard but an amazing friend.",
+        "user":"Harry Potter"
+      },
+      {
+        "text":"He's a smart guy... Wait, what's this internet thing?",
+        "user":"Albert Einstein"
+      }
+    ]
+  }
+}
