@@ -4,7 +4,7 @@ const path = require('path');
 const favicon = require('express-favicon');
 const port = process.env.PORT || 8080;
 
-app.use(favicon(__dirname + '/build/favicon.ico'));
+// app.use(favicon(__dirname + '/build/favicon.ico'));
 let bodyParser     =        require("body-parser");
 app.use(bodyParser.urlencoded({ extended: true }));
 app.use(bodyParser.json());
