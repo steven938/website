@@ -17,7 +17,7 @@ app.post('/form', (req, res) => {
   if(!emailRegexp.test(req.body.email)){
     res.status(422).send(req.body.email + " is an invalid email").end();
   };
-  res.status(200);
+  res.status(200).end();
 });
 
 app.listen(port);

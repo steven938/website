@@ -170,7 +170,7 @@
           console.log(errorThrown);
           console.log(jqXHR);
           $('#image-loader').fadeOut();
-          $('#message-warning').html(textStatus);
+          $('#message-warning').html(jqXHR.responseText);
           $('#message-warning').fadeIn();
         }
       });
