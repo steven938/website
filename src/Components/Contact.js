@@ -1,11 +1,6 @@
 import React, { Component } from 'react';
 
 class Contact extends Component {
-  handleChange(){
-    console.log("change")
-  }
-
-
   render() {
 
     if(this.props.data){

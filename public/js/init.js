@@ -146,13 +146,15 @@
       var contactSubject = $('#contactForm #contactSubject').val();
       var contactMessage = $('#contactForm #contactMessage').val();
 
-      var data = 'contactName=' + contactName + '&contactEmail=' + contactEmail +
-               '&contactSubject=' + contactSubject + '&contactMessage=' + contactMessage;
+      var data = JSON.stringify({"contactName": contactName, "contactEmail": contactEmail, "contactSubject": contactSubject, "contactMessage": contactMessage});
+
+      console.log(data)
 
       $.ajax({
 
 	      type: "POST",
-	      url: "inc/sendEmail.php",
+	      url: "https://stevenchen.herokuapp.com/form",
+        dataType:"json",
 	      data: data,
 	      success: function(msg) {
 
@@ -178,11 +180,3 @@
 
 
 });
-
-
-
-
-
-
-
-
