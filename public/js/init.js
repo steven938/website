@@ -146,7 +146,7 @@
       var contactSubject = $('#contactForm #contactSubject').val();
       var contactMessage = $('#contactForm #contactMessage').val();
 
-      var data = JSON.stringify({"contactName": contactName, "contactEmail": contactEmail, "contactSubject": contactSubject, "contactMessage": contactMessage});
+      var data = JSON.stringify({name: contactName, email: Email, subject: contactSubject, message: contactMessage});
 
       console.log(data)
 
@@ -163,7 +163,7 @@
                $('#image-loader').fadeOut();
                $('#message-warning').hide();
                $('#contactForm').fadeOut();
-               $('#message-success').fadeIn();   
+               $('#message-success').fadeIn();
             }
             // There was an error
             else {
