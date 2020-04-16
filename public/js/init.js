@@ -167,9 +167,8 @@
             }
             // There was an error
             else {
-              console.log(data);
-               $('#image-loader').fadeOut();
-               $('#message-warning').html(msg);
+              $('#image-loader').fadeOut();
+              $('#message-warning').html(msg);
 	            $('#message-warning').fadeIn();
             }
 
