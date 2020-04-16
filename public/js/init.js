@@ -156,24 +156,23 @@
         contentType: 'application/json',
         data: data,
 	      success: function(msg) {
+          // Message was sent
+          console.log("SUCCESS");
+          console.log(msg);
+          $('#image-loader').fadeOut();
+          $('#message-warning').hide();
+          $('#contactForm').fadeOut();
+          $('#message-success').fadeIn();
 
-            // Message was sent
-            if (msg == 'OK') {
-               $('#image-loader').fadeOut();
-               $('#message-warning').hide();
-               $('#contactForm').fadeOut();
-               $('#message-success').fadeIn();
-            }
-            // There was an error
-            else {
-              console.log(data)
-              $('#image-loader').fadeOut();
-              $('#message-warning').html(msg);
-	            $('#message-warning').fadeIn();
-            }
-
-	      }
-
+          // There was an error
+        },error: function(jqXHR, textStatus, errorThrown) {
+          console.log("ERROR");
+          console.log(errorThrown);
+          console.log(jqXHR);
+          $('#image-loader').fadeOut();
+          $('#message-warning').html(textStatus);
+          $('#message-warning').fadeIn();
+        }
       });
       return false;
    });

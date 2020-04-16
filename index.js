@@ -15,9 +15,9 @@ app.post('/form', (req, res) => {
   console.log(req.body);
   const emailRegexp = /^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9](?:[a-zA-Z0-9-]{0,61}[a-zA-Z0-9])?(?:\.[a-zA-Z0-9](?:[a-zA-Z0-9-]{0,61}[a-zA-Z0-9])?)*$/;
   if(!emailRegexp.test(req.body.email)){
-    res.status(422).send(req.body.email + " is an invalid email");
+    res.status(422).send(req.body.email + " is an invalid email").end();
   };
-
+  res.status(200);
 });
 
 app.listen(port);
