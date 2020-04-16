@@ -12,7 +12,7 @@ app.use(express.static(path.join(__dirname, 'build')));
 app.post('/form', (req, res) => {
   const emailRegexp = /^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9](?:[a-zA-Z0-9-]{0,61}[a-zA-Z0-9])?(?:\.[a-zA-Z0-9](?:[a-zA-Z0-9-]{0,61}[a-zA-Z0-9])?)*$/;
   if(!emailRegexp.test(req.body.contactEmail)){
-    res.status(422).send("Invalid email");
+    res.status(422).send(req.body.contactEmail + " is an invalid email");
   };
 
 });
