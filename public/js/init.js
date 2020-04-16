@@ -152,7 +152,9 @@
 
 	      type: "POST",
 	      url: "https://stevenchen.herokuapp.com/form",
-	      data: data,
+        dataType: 'json',
+        contentType: 'application/json',
+        data: data,
 	      success: function(msg) {
 
             // Message was sent
