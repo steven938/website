@@ -148,8 +148,6 @@
 
       var data = JSON.stringify({name: contactName, email: contactEmail, subject: contactSubject, message: contactMessage});
 
-      console.log(data)
-
       $.ajax({
 
 	      type: "POST",
@@ -167,6 +165,7 @@
             }
             // There was an error
             else {
+              console.log(data)
               $('#image-loader').fadeOut();
               $('#message-warning').html(msg);
 	            $('#message-warning').fadeIn();
