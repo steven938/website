@@ -146,7 +146,7 @@
       var contactSubject = $('#contactForm #contactSubject').val();
       var contactMessage = $('#contactForm #contactMessage').val();
 
-      var data = JSON.stringify({name: contactName, email: Email, subject: contactSubject, message: contactMessage});
+      var data = JSON.stringify({name: contactName, email: contactEmail, subject: contactSubject, message: contactMessage});
 
       console.log(data)
 
