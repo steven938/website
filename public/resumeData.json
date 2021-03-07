@@ -14,7 +14,7 @@
       "state":"Ontario",
       "zip": "Canada"
     },
-    "website": "http://www.timbakerdev.com",
+    "website": "http://www.stevenchen.herokuapp.com",
     "resumedownload":"https://www.dropbox.com/s/2bwgeq5nryhq9rw/Steven%20Chen%20Resume%20-%20SWE.pdf?dl=0",
     "social":[
       {
@@ -24,7 +24,7 @@
       },
       {
         "name":"github",
-        "url":"http://github.com/steven938",
+        "url":"http://github.com",
         "className":"fa fa-github"
       }
     ]
