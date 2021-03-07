@@ -96,37 +96,37 @@
         "title":"Travelsafe",
         "category":"Web app for finding safest route between 2 location. Used graph traversal algorithm with here.com mapping API.",
         "image":"map.png",
-        "url":"https://devpost.com/software/travelsafe-83hvgo"
+        "url":"https://fb.com"
       },
       {
         "title":"EmailParser",
         "category":"Open-source Python library for parsing raw emails.",
         "image":"email.gif",
-        "url":"https://github.com/steven938/EmailParser"
+        "url":"https://fb.com"
       },
       {
         "title":"Maze Solver",
         "category":"Java program that solves maze with number path restrictions.",
         "image":"maze.JPG",
-        "url":"https://github.com/steven938/Maze-Solver"
+        "url":"https://fb.com"
       },
       {
         "title":"Huffman Compression",
         "category":"Implemented Huffman Compression Algorithm for textfile compression from scratch in java.",
         "image":"tree.JPG",
-        "url":"https://github.com/steven938/Huffman-Compression"
+        "url":"https://fb.com"
       },
       {
         "title":"Full Stack Web Development",
         "category":"Developed web apps and websites such as this. Worked with node.js, react.js, bootstrap and plain HTML/CSS + JavaScript of course.",
         "image":"website.JPG",
-        "url":"https://github.com/steven938/website"
+        "url":"https://fb.com"
       },
       {
         "title":"Twitter Sentiment Analysis",
         "category":"Extracted tweets using twitter API and ran sentiment analysis based on geolocation of tweets.",
         "image":"twitter.jpg",
-        "url":"https://github.com/steven938/Twitter-Sent-Analysis"
+        "url":"https://fb.com"
       }
     ]
   },
@@ -137,7 +137,7 @@
         "user":"Harry Potter"
       },
       {
-        "text":"He's a smart guy... Wait, what's this internet thing?",
+        "text":"He's a smart guy...",
         "user":"Albert Einstein"
       }
     ]
