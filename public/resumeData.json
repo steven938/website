@@ -2,16 +2,16 @@
   "main": {
     "name":"Steven Chen",
     "occupation":"Computer Science and Business student",
-    "description":"and I'm a technologist, analyst, and problem solver",
+    "description":"and I'm a technologist, problem-solver, and hobbyist of many things.",
     "image":"profilepic.jpg",
-    "bio":"I'm interested in technology and its social, business applications. Technical-wise, I'm interested in data engineering, full-stack development, data science and analytics. I'm also fascinated by fundamental investing, valuation, and the financial markets. I'm also a product enthusiast, desiring to build the best products that create the most value.",
-    "contactmessage":"Want to get in contact with me? Email me at s_chen@hotmail.ca",
+    "bio":"The ",
+    "contactmessage":"Let's get in touch!",
     "email": "s_chen@hotmail.ca",
     "phone": "604-781-9692",
     "address":{
       "street":"",
-      "city":"London",
-      "state":"Ontario",
+      "city":"Vancouver",
+      "state":"BC",
       "zip": "Canada"
     },
     "website": "http://www.stevenchen.herokuapp.com",
@@ -30,7 +30,7 @@
     ]
   },
   "resume":{
-    "skillmessage":"Technicals I'm good at",
+    "skillmessage":"Languages that I speak",
     "education":[
       {
         "school":"Western University",
@@ -44,19 +44,13 @@
         "company":"Facebook",
         "title":"Data Engineer Intern",
         "years":"June 2019 - Present",
-        "description":"Working on Data Pipelining, Data Ingestion, Data Dependency Tracking for Dashboards"
+        "description":"Worked on data pipelining, data lineage for dashboards, and internal tools."
       },
       {
         "company":"IA Financial Group",
-        "title":"Summer Technology Analyst, Software Developer",
+        "title":"Summer Technology Analyst",
         "years":"May 2018 - August 2018",
-        "description":"I designed, implemented a data pipeline in Python to deliver structured and unstructured data analytics for the client rep team. I also worked on an ongoing agile development of the company's workflow system by helping create Key Performance Metrics (KPI) using SQL and Business Intelligence (BI) tools. I also helped with testing and used Jira for bug tracking."
-      },
-      {
-        "company":"Adanac Cross Border Tax",
-        "title":"Summer Accounting Assistant",
-        "years":"May 2017 - August 2017",
-        "description":"I worked on developing spreadsheet templates and integrating accounting software to speed up tax and accounting processes."
+        "description":"Designed, implemented a data pipeline in Python to deliver structured and unstructured data analytics for the client rep team. Worked on an ongoing agile development of the company's workflow system by helping create Key Performance Metrics (KPI) using SQL and Business Intelligence (BI) tools. Helped with testing and used Jira for bug tracking."
       }
     ],
     "skills":[
@@ -69,8 +63,12 @@
         "level":"70%"
       },
       {
+      	"name":"Scala",
+      	"level":"70%"
+      },
+      {
         "name":"C/C++",
-        "level":"70%"
+        "level":"60%"
       },
       {
         "name":"SQL",
@@ -78,15 +76,15 @@
       },
       {
         "name":"Javascript",
-        "level":"60%"
+        "level":"40%"
       },
       {
         "name":"HTML",
-        "level":"60%"
+        "level":"40%"
       },
       {
         "name":"CSS",
-        "level":"60%"
+        "level":"20%"
       }
     ]
   },
@@ -96,37 +94,37 @@
         "title":"Travelsafe",
         "category":"Web app for finding safest route between 2 location. Used graph traversal algorithm with here.com mapping API.",
         "image":"map.png",
-        "url":"https://fb.com"
+        "url":"https://github.com"
       },
       {
         "title":"EmailParser",
         "category":"Open-source Python library for parsing raw emails.",
         "image":"email.gif",
-        "url":"https://fb.com"
+        "url":"https://github.com"
       },
       {
         "title":"Maze Solver",
         "category":"Java program that solves maze with number path restrictions.",
         "image":"maze.JPG",
-        "url":"https://fb.com"
+        "url":"https://github.com"
       },
       {
         "title":"Huffman Compression",
         "category":"Implemented Huffman Compression Algorithm for textfile compression from scratch in java.",
         "image":"tree.JPG",
-        "url":"https://fb.com"
+        "url":"https://github.com"
       },
       {
         "title":"Full Stack Web Development",
         "category":"Developed web apps and websites such as this. Worked with node.js, react.js, bootstrap and plain HTML/CSS + JavaScript of course.",
         "image":"website.JPG",
-        "url":"https://fb.com"
+        "url":"https://github.com"
       },
       {
         "title":"Twitter Sentiment Analysis",
         "category":"Extracted tweets using twitter API and ran sentiment analysis based on geolocation of tweets.",
         "image":"twitter.jpg",
-        "url":"https://fb.com"
+        "url":"https://github.com"
       }
     ]
   },
